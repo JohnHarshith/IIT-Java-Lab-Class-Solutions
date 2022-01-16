@@ -77,7 +77,6 @@ public class Main {
         for(int i=0;i<midElement;i++) {
             leftRotateByOneElement(arr, length);
         }
-       
     }
     private static void leftRotateByOneElement(int[] arr,int length) {
         int temp = arr[0];
